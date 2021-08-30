@@ -1,5 +1,5 @@
 {
-    "name": "random_int",
+    "name": "randomn_int",
     "version": "1.0.0",
     "description": "Get a random integer number quickly ",
     "main": "random.js",
