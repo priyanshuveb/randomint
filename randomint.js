@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const getRandom = (n1, n2) => {
+export default (n1, n2) => {
   if (!n1 && !n2) {
     n1 = 1000000000;
     n2 = 9999999999;
