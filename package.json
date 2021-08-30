@@ -2,8 +2,9 @@
     "name": "randomn_int",
     "version": "1.0.0",
     "description": "Get a random integer number quickly ",
-    "main": "random.js",
-    "bin": "random.js",
+    "main": "randomint.js",
+    "bin": "randomint.js",
+    "path": "randomint.js",
     "scripts": {
         "random": "node random.js"
     },
