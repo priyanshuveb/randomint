@@ -1,0 +1,24 @@
+{
+    "name": "randomint",
+    "version": "1.0.0",
+    "description": "Get a random integer number quickly ",
+    "main": "random.js",
+    "bin": "random.js",
+    "scripts": {
+        "random": "node random.js"
+    },
+    "keywords":
+        [
+        "random",
+        "random integer",
+        "random number"
+        ],
+    "author": "Priyanshu Bindal",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/priyanshuveb/randomint.git",
+        "homepage": "https://github.com/priyanshuveb/randomint#readme"
+    }
+
+}
