@@ -1,6 +1,6 @@
 {
-    "name": "randomn_int",
-    "version": "1.1.1",
+    "name": "random_int",
+    "version": "1.1.2",
     "description": "Get a random integer number quickly ",
     "main": "randomint.js",
     "bin": "randomint.js",
