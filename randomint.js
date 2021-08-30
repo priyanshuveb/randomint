@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-export default (n1, n2) => {
+function (n1, n2) {
   if (!n1 && !n2) {
     n1 = 1000000000;
     n2 = 9999999999;
@@ -15,7 +15,7 @@ export default (n1, n2) => {
   while (multiplier > fractionVar) {
     multiplier = randomParameter1() + 1 + randomParameter2(n1, n2);
   }
-  console.log("Result: ", Math.floor(multiplier * n1));
+  return Math.floor(multiplier * n1);
 };
 
 const randomParameter2 = (n1, n2) => {
@@ -36,3 +36,5 @@ const randomParameter1 = () => {
   const date = Date.now();
   return (date % 1000) / 1000;
 };
+
+module.exports = getRandom;
